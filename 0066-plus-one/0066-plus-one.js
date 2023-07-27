@@ -33,4 +33,16 @@ JS is able to store as 6145390195186705543 cannot be stored.
 Ref : https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/BigInt
 
 
+
+
+**문자열로 이루어진 숫자를 BigInt() 안에 넣어야한다. **
+let a = '9999999999999999'
+let b = 9999999999999999
+
+cc = BigInt(a)       (o)
+:9999999999999999n
+ff = BigInt(b)       (x)
+10000000000000000n
+
+
 */ 
