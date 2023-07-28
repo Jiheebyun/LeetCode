@@ -5,8 +5,7 @@
  * @return {Function}
  */
 var cancellable = function(fn, args, t) {
-    fn(...args)
-    
+    fn(...args);
     const intervalID = setInterval(() => {
         fn(...args);
         
@@ -14,7 +13,7 @@ var cancellable = function(fn, args, t) {
     const cancel = () => {
         clearInterval(intervalID);
     }
-    return cancel
+    return cancel;
     
 };
 
