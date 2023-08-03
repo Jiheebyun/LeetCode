@@ -27,7 +27,7 @@ var createCounter = function(init) {
  */
 
 /*
-**init의 값이 연산을 하고 난뒤에도 바뀌면 안된다.** 
+
 
 num++ -> 변수를 먼저 할당한 뒤에 연산을 수행
 ex) let x = 3;
