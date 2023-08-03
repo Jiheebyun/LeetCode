@@ -13,7 +13,6 @@ var createCounter = function(init) {
         },
         decrement(){
             return --num
-            
         }
     }
     return objFn
