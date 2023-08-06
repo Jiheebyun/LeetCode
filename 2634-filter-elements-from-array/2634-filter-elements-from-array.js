@@ -12,3 +12,14 @@ var filter = function(arr, fn) {
     })
     return result
 };
+
+
+
+
+
+/*
+fn의 함수는 arr의 요소하나를 인자로 받고,
+return 값으로 true, false를 반환하므로,
+if문을 이용하여 fn값이 true일 경우에, result에 arr 요소를 push한다.
+
+*/
