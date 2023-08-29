@@ -4,12 +4,10 @@
  */
 var once = function(fn) {
     let isCalled = false;
-    let result;
     return function(...args){
         if(!isCalled){
             isCalled = true;
-            result = fn(...args);
-            return result
+            return fn(...args)
         }
     }
 };
