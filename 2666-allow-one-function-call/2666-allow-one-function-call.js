@@ -11,7 +11,6 @@ var once = function(fn) {
             result = fn(...args);
             return result
         }
-        return undefined
     }
 };
 
