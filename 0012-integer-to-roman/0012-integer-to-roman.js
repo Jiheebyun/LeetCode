@@ -22,3 +22,6 @@ var intToRoman = function (num) {
     }
     return result;
 };
+
+//로마 숫자는 일반적으로 왼쪽에서 오른쪽으로 큰 것에서 작은 것 순으로 표기
+//6가지의 경우 오른쪽에서 왼쪽으로 작은 것에서 큰 것으로 표기되며 빼기가 적용된다. (IV, IX, XL, XC, CD, CM)
